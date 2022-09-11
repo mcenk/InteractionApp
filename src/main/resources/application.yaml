@@ -1,0 +1,12 @@
+# global degiskenler ve belli ayarlamalar icin gerekli olacak ogrendikce bu alana eklemeler yap!
+# konfigure edilebilen parametrelerde gerekli ayarlamalar yapilarak uygulamayi disa acmayi saglar
+# istersen port.enable seklendinde yaz istersen merdivensi yaml dosyasi seklinde
+# ONEMLI
+# 1- mesela dev durumunda H2 kullanirken reelde mongoya gecilecekse ayarlamalar buradan yapilir
+# 2- yaml dosyasi halinde tek dosyada halledilirken normal yazimde tek tek duzenlemek zorunda kalinabilir
+
+
+spring:
+  datasource:
+    generate-unique-name: false
+#    h2 kullanirken her calismada unique bir erisim kodu vermesini engelliyor
